@@ -1,0 +1,61 @@
+
+import java.util.Scanner;
+
+
+public class calculator {
+	
+	
+	public static void main(String[] args) {
+
+		int first_number;
+
+		int second_number;
+
+		Scanner scan = new Scanner(System.in);
+
+
+
+		System.out.println("Please enter the two numbers ");
+
+
+
+first_number = scan.nextInt();
+
+second_number = scan.nextInt();
+
+
+
+		int Summation = first_number + second_number;
+
+
+
+		int Subtraction = first_number - second_number;
+
+
+
+		int Multiplication = first_number * second_number;
+
+		
+
+		int Divison = first_number / second_number;
+
+
+
+		System.out.println("first_number :" + first_number);
+
+		System.out.println("second_number :" + second_number);
+
+		System.out.println("Summation:" + Summation);
+
+		System.out.println("Subtraction:" + Subtraction);
+
+		System.out.println("Multiplication:" + Multiplication);
+
+		System.out.println("Divison:" + Divison);
+
+
+
+	}
+
+}
+
